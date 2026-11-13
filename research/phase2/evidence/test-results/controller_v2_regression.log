@@ -1,0 +1,247 @@
+Building for debugging...
+[0/2] Write swift-version-BF9FFD6CEA9A4E.txt
+Build complete! (0.07s)
+Test Suite 'All tests' started at 2026-11-13 11:46:27.422.
+Test Suite 'AdaptivePerfKitPackageTests.xctest' started at 2026-11-13 11:46:27.423.
+Test Suite 'AdaptiveConcurrencyConfigurationTests' started at 2026-11-13 11:46:27.423.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testDefaultConfiguration]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testDefaultConfiguration]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testEqualConcurrencyBoundaries]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testEqualConcurrencyBoundaries]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testImprovementThresholdAboveLimit]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testImprovementThresholdAboveLimit]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInitialConcurrencyAboveMaximum]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInitialConcurrencyAboveMaximum]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInitialConcurrencyBelowMinimum]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInitialConcurrencyBelowMinimum]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInvalidImprovementThreshold]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInvalidImprovementThreshold]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInvalidMaximumConcurrency]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInvalidMaximumConcurrency]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInvalidMaximumLatency]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInvalidMaximumLatency]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInvalidMeasurementWindow]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInvalidMeasurementWindow]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInvalidMinimumConcurrency]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInvalidMinimumConcurrency]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testNonFiniteImprovementThreshold]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testNonFiniteImprovementThreshold]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testNonFiniteMaximumLatency]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testNonFiniteMaximumLatency]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testValidCustomConfiguration]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testValidCustomConfiguration]' passed (0.000 seconds).
+Test Suite 'AdaptiveConcurrencyConfigurationTests' passed at 2026-11-13 11:46:27.424.
+	 Executed 13 tests, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'AdaptiveConcurrencyControllerTests' started at 2026-11-13 11:46:27.424.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testAdjustmentHistory]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testAdjustmentHistory]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testInitialConcurrency]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testInitialConcurrency]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testInitialExploration]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testInitialExploration]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testInsufficientImprovementMaintainsConcurrency]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testInsufficientImprovementMaintainsConcurrency]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testLatencyAtThresholdDoesNotTriggerReduction]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testLatencyAtThresholdDoesNotTriggerReduction]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testLatencyExceededDecreasesConcurrency]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testLatencyExceededDecreasesConcurrency]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testMaximumConcurrencyIsRespected]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testMaximumConcurrencyIsRespected]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testMinimumConcurrencyIsRespected]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testMinimumConcurrencyIsRespected]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testMismatchedConcurrencyDoesNotChangeState]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testMismatchedConcurrencyDoesNotChangeState]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testResetRestoresInitialState]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testResetRestoresInitialState]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testThroughputDegradationReversesDirection]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testThroughputDegradationReversesDirection]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testThroughputImprovementIncreasesConcurrency]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testThroughputImprovementIncreasesConcurrency]' passed (0.000 seconds).
+Test Suite 'AdaptiveConcurrencyControllerTests' passed at 2026-11-13 11:46:27.426.
+	 Executed 12 tests, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'AdaptiveConcurrencyControllerV2Tests' started at 2026-11-13 11:46:27.426.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerV2Tests testAdjustmentHistoryRecorded]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerV2Tests testAdjustmentHistoryRecorded]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerV2Tests testBestThroughputTracking]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerV2Tests testBestThroughputTracking]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerV2Tests testInitialExploration]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerV2Tests testInitialExploration]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerV2Tests testLatencyProtection]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerV2Tests testLatencyProtection]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerV2Tests testRecoveryAfterDegradation]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerV2Tests testRecoveryAfterDegradation]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerV2Tests testResetClearsBestObservation]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerV2Tests testResetClearsBestObservation]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerV2Tests testSmallImprovementHoldsConcurrency]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerV2Tests testSmallImprovementHoldsConcurrency]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerV2Tests testStaleFeedbackDoesNotChangeState]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerV2Tests testStaleFeedbackDoesNotChangeState]' passed (0.000 seconds).
+Test Suite 'AdaptiveConcurrencyControllerV2Tests' passed at 2026-11-13 11:46:27.427.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'AdaptiveExecutorTests' started at 2026-11-13 11:46:27.427.
+Test Case '-[AdaptivePerfKitTests.AdaptiveExecutorTests testEmptyInputs]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveExecutorTests testEmptyInputs]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveExecutorTests testFeedbackWindowCount]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveExecutorTests testFeedbackWindowCount]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveExecutorTests testInitialExploration]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveExecutorTests testInitialExploration]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveExecutorTests testMaximumConcurrencyIsRespected]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveExecutorTests testMaximumConcurrencyIsRespected]' passed (0.062 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveExecutorTests testOperationErrorPropagates]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveExecutorTests testOperationErrorPropagates]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveExecutorTests testPartialFinalWindow]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveExecutorTests testPartialFinalWindow]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveExecutorTests testPreCancelledExecutionThrows]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveExecutorTests testPreCancelledExecutionThrows]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveExecutorTests testResultsPreserveInputOrder]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveExecutorTests testResultsPreserveInputOrder]' passed (0.114 seconds).
+Test Suite 'AdaptiveExecutorTests' passed at 2026-11-13 11:46:27.605.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.177 (0.177) seconds
+Test Suite 'AdaptivePerfKitTests' started at 2026-11-13 11:46:27.605.
+Test Case '-[AdaptivePerfKitTests.AdaptivePerfKitTests testExample]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptivePerfKitTests testExample]' passed (0.000 seconds).
+Test Suite 'AdaptivePerfKitTests' passed at 2026-11-13 11:46:27.605.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.000 (0.000) seconds
+Test Suite 'AdaptiveWindowDiagnosticTests' started at 2026-11-13 11:46:27.605.
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testConcurrencyWithinBounds]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testConcurrencyWithinBounds]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testDiagnosticRecordCount]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testDiagnosticRecordCount]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testDiagnosticsMatchAdjustments]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testDiagnosticsMatchAdjustments]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testDiagnosticsMatchFeedback]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testDiagnosticsMatchFeedback]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testEmptyInputsProduceNoDiagnostics]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testEmptyInputsProduceNoDiagnostics]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testMeasurementsAreValid]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testMeasurementsAreValid]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testResultsPreserveInputOrder]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testResultsPreserveInputOrder]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testWindowTaskCounts]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testWindowTaskCounts]' passed (0.000 seconds).
+Test Suite 'AdaptiveWindowDiagnosticTests' passed at 2026-11-13 11:46:27.608.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.003 (0.003) seconds
+Test Suite 'FixedConcurrencyExecutorTests' started at 2026-11-13 11:46:27.608.
+Test Case '-[AdaptivePerfKitTests.FixedConcurrencyExecutorTests testConcurrencyLimitIsRespected]' started.
+Test Case '-[AdaptivePerfKitTests.FixedConcurrencyExecutorTests testConcurrencyLimitIsRespected]' passed (0.124 seconds).
+Test Case '-[AdaptivePerfKitTests.FixedConcurrencyExecutorTests testEmptyInputs]' started.
+Test Case '-[AdaptivePerfKitTests.FixedConcurrencyExecutorTests testEmptyInputs]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.FixedConcurrencyExecutorTests testInvalidConcurrencyLimit]' started.
+Test Case '-[AdaptivePerfKitTests.FixedConcurrencyExecutorTests testInvalidConcurrencyLimit]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.FixedConcurrencyExecutorTests testLargeWorkload]' started.
+Test Case '-[AdaptivePerfKitTests.FixedConcurrencyExecutorTests testLargeWorkload]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.FixedConcurrencyExecutorTests testMultipleTaskExecution]' started.
+Test Case '-[AdaptivePerfKitTests.FixedConcurrencyExecutorTests testMultipleTaskExecution]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.FixedConcurrencyExecutorTests testNegativeConcurrencyLimit]' started.
+Test Case '-[AdaptivePerfKitTests.FixedConcurrencyExecutorTests testNegativeConcurrencyLimit]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.FixedConcurrencyExecutorTests testOperationErrorIsPropagated]' started.
+Test Case '-[AdaptivePerfKitTests.FixedConcurrencyExecutorTests testOperationErrorIsPropagated]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.FixedConcurrencyExecutorTests testResultsPreserveInputOrder]' started.
+Test Case '-[AdaptivePerfKitTests.FixedConcurrencyExecutorTests testResultsPreserveInputOrder]' passed (0.081 seconds).
+Test Case '-[AdaptivePerfKitTests.FixedConcurrencyExecutorTests testSingleTaskExecution]' started.
+Test Case '-[AdaptivePerfKitTests.FixedConcurrencyExecutorTests testSingleTaskExecution]' passed (0.000 seconds).
+Test Suite 'FixedConcurrencyExecutorTests' passed at 2026-11-13 11:46:27.817.
+	 Executed 9 tests, with 0 failures (0 unexpected) in 0.207 (0.208) seconds
+Test Suite 'PerformanceFeedbackTests' started at 2026-11-13 11:46:27.817.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testCustomWindowIDAndTimestamp]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testCustomWindowIDAndTimestamp]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testFeedbackEquality]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testFeedbackEquality]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testInvalidConcurrencyLimit]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testInvalidConcurrencyLimit]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testNegativeElapsedTime]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testNegativeElapsedTime]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testNegativeMeanLatency]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testNegativeMeanLatency]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testNegativeTaskCount]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testNegativeTaskCount]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testNonFiniteElapsedTime]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testNonFiniteElapsedTime]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testNonFiniteMeanLatency]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testNonFiniteMeanLatency]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testThroughputCalculation]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testThroughputCalculation]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testThroughputWithFractionalSeconds]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testThroughputWithFractionalSeconds]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testValidFeedback]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testValidFeedback]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testZeroCompletedTasks]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testZeroCompletedTasks]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testZeroElapsedTime]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testZeroElapsedTime]' passed (0.000 seconds).
+Test Suite 'PerformanceFeedbackTests' passed at 2026-11-13 11:46:27.820.
+	 Executed 13 tests, with 0 failures (0 unexpected) in 0.002 (0.003) seconds
+Test Suite 'AdaptivePerfKitPackageTests.xctest' passed at 2026-11-13 11:46:27.820.
+	 Executed 72 tests, with 0 failures (0 unexpected) in 0.393 (0.397) seconds
+Test Suite 'All tests' passed at 2026-11-13 11:46:27.820.
+	 Executed 72 tests, with 0 failures (0 unexpected) in 0.393 (0.398) seconds
+◇ Test run started.
+↳ Testing Library Version: 1501
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite "Benchmark Persistence Integrity Tests" started.
+◇ Suite "Benchmark Statistics Tests" started.
+◇ Suite "Benchmark Data Store Tests" started.
+◇ Suite "Performance Monitor Tests" started.
+◇ Suite "Benchmark Exporter Tests" started.
+◇ Test "Records survive save and reload" started.
+◇ Test "Calculates median for odd sample count" started.
+◇ Test "Calculates average, minimum and maximum" started.
+◇ Test "Missing file returns empty records" started.
+◇ Test "Calculates median for even sample count" started.
+◇ Test "Returns nil for empty measurements" started.
+◇ Test "Handles zero duration" started.
+◇ Test "Filters records by workload" started.
+◇ Test "Filters invalid measurements" started.
+◇ Test "Handles a single measurement" started.
+◇ Test "Removes a specific batch" started.
+◇ Test "Adds and counts records" started.
+◇ Test "Calculates nearest-rank P95" started.
+◇ Test "Counts separate batches" started.
+◇ Test "Corrupted JSON reports an error" started.
+◇ Test "Measures immediate operations" started.
+◇ Test "Removes all records" started.
+◇ Test "Propagates operation errors" started.
+◇ Test "Filters records by batch" started.
+◇ Test "Measures asynchronous execution" started.
+◇ Test "CSV includes required research columns" started.
+◇ Test "CSV preserves duration values" started.
+◇ Test "CSV contains header and five data rows" started.
+◇ Test "CSV escapes commas and quotes" started.
+◇ Test "Exports valid JSON" started.
+◇ Test "Exports an empty JSON array" started.
+◇ Test "JSON preserves measurement values" started.
+◇ Test "Empty CSV contains only headers" started.
+✔ Test "Returns nil for empty measurements" passed after 0.001 seconds.
+✔ Test "Calculates median for even sample count" passed after 0.001 seconds.
+✔ Test "Calculates median for odd sample count" passed after 0.001 seconds.
+✔ Test "Calculates average, minimum and maximum" passed after 0.001 seconds.
+✔ Test "Filters records by workload" passed after 0.001 seconds.
+✔ Test "Handles a single measurement" passed after 0.001 seconds.
+✔ Test "Filters invalid measurements" passed after 0.001 seconds.
+✔ Test "Handles zero duration" passed after 0.001 seconds.
+✔ Test "Removes a specific batch" passed after 0.001 seconds.
+✔ Test "Counts separate batches" passed after 0.001 seconds.
+✔ Test "Adds and counts records" passed after 0.001 seconds.
+✔ Test "Measures immediate operations" passed after 0.001 seconds.
+✔ Test "Filters records by batch" passed after 0.001 seconds.
+✔ Test "Removes all records" passed after 0.001 seconds.
+✔ Test "Calculates nearest-rank P95" passed after 0.001 seconds.
+✔ Test "Propagates operation errors" passed after 0.001 seconds.
+✔ Suite "Benchmark Data Store Tests" passed after 0.001 seconds.
+✔ Suite "Benchmark Statistics Tests" passed after 0.001 seconds.
+✔ Test "Exports an empty JSON array" passed after 0.001 seconds.
+✔ Test "Missing file returns empty records" passed after 0.001 seconds.
+✔ Test "Exports valid JSON" passed after 0.001 seconds.
+✔ Test "JSON preserves measurement values" passed after 0.001 seconds.
+✔ Test "Empty CSV contains only headers" passed after 0.001 seconds.
+✔ Test "CSV escapes commas and quotes" passed after 0.001 seconds.
+✔ Test "Records survive save and reload" passed after 0.002 seconds.
+✔ Test "CSV preserves duration values" passed after 0.002 seconds.
+✔ Test "CSV includes required research columns" passed after 0.002 seconds.
+✔ Test "CSV contains header and five data rows" passed after 0.002 seconds.
+✔ Suite "Benchmark Exporter Tests" passed after 0.002 seconds.
+✔ Test "Corrupted JSON reports an error" passed after 0.003 seconds.
+✔ Suite "Benchmark Persistence Integrity Tests" passed after 0.003 seconds.
+✔ Test "Measures asynchronous execution" passed after 0.107 seconds.
+✔ Suite "Performance Monitor Tests" passed after 0.107 seconds.
+✔ Test run with 28 tests in 5 suites passed after 0.107 seconds.

@@ -1,0 +1,42 @@
+Building for debugging...
+[0/2] Write swift-version-BF9FFD6CEA9A4E.txt
+Build complete! (0.09s)
+Test Suite 'Selected tests' started at 2026-11-13 11:51:02.078.
+Test Suite 'AdaptivePerfKitPackageTests.xctest' started at 2026-11-13 11:51:02.079.
+Test Suite 'VersionedAdaptiveExecutorTests' started at 2026-11-13 11:51:02.079.
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testBothVersionsAvailable]' started.
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testBothVersionsAvailable]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testEmptyInputV1]' started.
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testEmptyInputV1]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testEmptyInputV2]' started.
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testEmptyInputV2]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testErrorPropagationV1]' started.
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testErrorPropagationV1]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testErrorPropagationV2]' started.
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testErrorPropagationV2]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testFeedbackHistoryV1]' started.
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testFeedbackHistoryV1]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testFeedbackHistoryV2]' started.
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testFeedbackHistoryV2]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testFreshControllerStateV1]' started.
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testFreshControllerStateV1]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testFreshControllerStateV2]' started.
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testFreshControllerStateV2]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testPartialWindowV1]' started.
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testPartialWindowV1]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testPartialWindowV2]' started.
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testPartialWindowV2]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testPreservesInputOrderV1]' started.
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testPreservesInputOrderV1]' passed (0.016 seconds).
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testPreservesInputOrderV2]' started.
+Test Case '-[AdaptivePerfKitTests.VersionedAdaptiveExecutorTests testPreservesInputOrderV2]' passed (0.018 seconds).
+Test Suite 'VersionedAdaptiveExecutorTests' passed at 2026-11-13 11:51:02.116.
+	 Executed 13 tests, with 0 failures (0 unexpected) in 0.037 (0.037) seconds
+Test Suite 'AdaptivePerfKitPackageTests.xctest' passed at 2026-11-13 11:51:02.116.
+	 Executed 13 tests, with 0 failures (0 unexpected) in 0.037 (0.037) seconds
+Test Suite 'Selected tests' passed at 2026-11-13 11:51:02.116.
+	 Executed 13 tests, with 0 failures (0 unexpected) in 0.037 (0.038) seconds
+◇ Test run started.
+↳ Testing Library Version: 1501
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

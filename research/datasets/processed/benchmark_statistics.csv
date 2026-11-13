@@ -1,0 +1,10 @@
+Metric,Value,Unit
+Total Runs,10,count
+Total Batches,2,count
+Mean,623.0518,ms
+Median,613.4457,ms
+Minimum,607.9901,ms
+Maximum,676.7796,ms
+P95,658.7518,ms
+Standard Deviation,21.0446,ms
+Coefficient of Variation,3.3777,%

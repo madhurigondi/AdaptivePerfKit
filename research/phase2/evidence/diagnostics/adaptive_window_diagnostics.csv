@@ -1,0 +1,11 @@
+window_number,concurrency_limit,completed_tasks,elapsed_ms,throughput_tasks_per_second,mean_latency_ms,decision,next_concurrency_limit
+1,2,10,66.380542,150.646555,13.238929,initialExploration,3
+2,3,10,53.740792,186.078389,13.612008,throughputImproved,4
+3,4,10,41.150167,243.012380,13.817987,throughputImproved,5
+4,5,10,32.197667,310.581509,16.036388,throughputImproved,6
+5,6,10,49.095542,203.684481,26.063425,throughputDegraded,5
+6,5,10,31.483250,317.629216,15.647154,throughputImproved,4
+7,4,10,41.047291,243.621437,13.730083,throughputDegraded,5
+8,5,10,33.029416,302.760424,16.122025,throughputImproved,6
+9,6,10,58.988458,169.524689,29.837946,throughputDegraded,5
+10,5,10,43.478833,229.996973,20.686562,throughputImproved,4

@@ -1,0 +1,32 @@
+Building for debugging...
+[0/2] Write swift-version-BF9FFD6CEA9A4E.txt
+Build complete! (0.07s)
+Test Suite 'Selected tests' started at 2026-11-13 11:20:03.448.
+Test Suite 'AdaptivePerfKitPackageTests.xctest' started at 2026-11-13 11:20:03.449.
+Test Suite 'AdaptiveWindowDiagnosticTests' started at 2026-11-13 11:20:03.449.
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testConcurrencyWithinBounds]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testConcurrencyWithinBounds]' passed (0.001 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testDiagnosticRecordCount]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testDiagnosticRecordCount]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testDiagnosticsMatchAdjustments]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testDiagnosticsMatchAdjustments]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testDiagnosticsMatchFeedback]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testDiagnosticsMatchFeedback]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testEmptyInputsProduceNoDiagnostics]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testEmptyInputsProduceNoDiagnostics]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testMeasurementsAreValid]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testMeasurementsAreValid]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testResultsPreserveInputOrder]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testResultsPreserveInputOrder]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testWindowTaskCounts]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveWindowDiagnosticTests testWindowTaskCounts]' passed (0.000 seconds).
+Test Suite 'AdaptiveWindowDiagnosticTests' passed at 2026-11-13 11:20:03.451.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.002 (0.002) seconds
+Test Suite 'AdaptivePerfKitPackageTests.xctest' passed at 2026-11-13 11:20:03.451.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.002 (0.002) seconds
+Test Suite 'Selected tests' passed at 2026-11-13 11:20:03.451.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.002 (0.003) seconds
+◇ Test run started.
+↳ Testing Library Version: 1501
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

@@ -1,0 +1,28 @@
+AdaptivePerfKit - Phase 1 Environment Evidence
+Captured (UTC): 2026-11-13T04:35:21Z
+============================================
+
+=== macOS Version ===
+ProductName:		macOS
+ProductVersion:		26.7
+BuildVersion:		25G229
+
+=== Xcode Version ===
+Xcode 26.3
+Build version 17C529
+
+=== Swift Version ===
+Apple Swift version 6.2.4 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+Target: arm64-apple-macosx26.0
+
+=== Mac Architecture ===
+arm64
+
+=== Processor ===
+Apple M4 Pro
+
+=== Booted iOS Simulators ===
+== Devices ==
+-- iOS 18.3 --
+-- iOS 26.3 --
+    iPhone 17 (41AB03B5-BFFF-44B2-9BEB-E553BA02A1FB) (Booted) 

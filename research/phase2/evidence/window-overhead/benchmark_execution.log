@@ -1,0 +1,323 @@
+[0/1] Planning build
+Building for debugging...
+[0/2] Write swift-version-BF9FFD6CEA9A4E.txt
+[2/3] Emitting module AdaptivePerfKit
+[3/4] Emitting module AdaptivePerfKitTests
+Build complete! (0.66s)
+Test Suite 'Selected tests' started at 2026-11-13 12:27:04.939.
+Test Suite 'AdaptivePerfKitPackageTests.xctest' started at 2026-11-13 12:27:04.940.
+Test Suite 'WindowOverheadBenchmarkTests' started at 2026-11-13 12:27:04.940.
+Test Case '-[AdaptivePerfKitTests.WindowOverheadBenchmarkTests testWindowOverheadBenchmark]' started.
+Test Case '-[AdaptivePerfKitTests.WindowOverheadBenchmarkTests testWindowOverheadBenchmark]' passed (121.673 seconds).
+Test Suite 'WindowOverheadBenchmarkTests' passed at 2026-11-13 12:29:06.613.
+	 Executed 1 test, with 0 failures (0 unexpected) in 121.673 (121.673) seconds
+Test Suite 'AdaptivePerfKitPackageTests.xctest' passed at 2026-11-13 12:29:06.613.
+	 Executed 1 test, with 0 failures (0 unexpected) in 121.673 (121.673) seconds
+Test Suite 'Selected tests' passed at 2026-11-13 12:29:06.613.
+	 Executed 1 test, with 0 failures (0 unexpected) in 121.673 (121.674) seconds
+========================================
+AdaptivePerfKit Window Overhead Benchmark
+========================================
+Tasks: 100
+Window size: 10
+Warm-up rounds: 3
+Measured rounds: 30
+
+Starting workload: cpuIntensive
+cpuIntensive | fixedContinuous | Trial 01 | 280.815 ms
+cpuIntensive | fixedWindowed | Trial 01 | 331.162 ms
+cpuIntensive | adaptiveV2 | Trial 01 | 290.454 ms
+cpuIntensive | fixedWindowed | Trial 02 | 333.121 ms
+cpuIntensive | adaptiveV2 | Trial 02 | 289.476 ms
+cpuIntensive | fixedContinuous | Trial 02 | 282.813 ms
+cpuIntensive | adaptiveV2 | Trial 03 | 294.369 ms
+cpuIntensive | fixedContinuous | Trial 03 | 279.334 ms
+cpuIntensive | fixedWindowed | Trial 03 | 332.508 ms
+cpuIntensive | fixedContinuous | Trial 04 | 280.637 ms
+cpuIntensive | fixedWindowed | Trial 04 | 331.379 ms
+cpuIntensive | adaptiveV2 | Trial 04 | 290.196 ms
+cpuIntensive | fixedWindowed | Trial 05 | 332.127 ms
+cpuIntensive | adaptiveV2 | Trial 05 | 289.248 ms
+cpuIntensive | fixedContinuous | Trial 05 | 283.387 ms
+cpuIntensive | adaptiveV2 | Trial 06 | 289.145 ms
+cpuIntensive | fixedContinuous | Trial 06 | 280.318 ms
+cpuIntensive | fixedWindowed | Trial 06 | 331.053 ms
+cpuIntensive | fixedContinuous | Trial 07 | 282.114 ms
+cpuIntensive | fixedWindowed | Trial 07 | 331.529 ms
+cpuIntensive | adaptiveV2 | Trial 07 | 289.152 ms
+cpuIntensive | fixedWindowed | Trial 08 | 334.450 ms
+cpuIntensive | adaptiveV2 | Trial 08 | 291.828 ms
+cpuIntensive | fixedContinuous | Trial 08 | 281.909 ms
+cpuIntensive | adaptiveV2 | Trial 09 | 289.342 ms
+cpuIntensive | fixedContinuous | Trial 09 | 281.581 ms
+cpuIntensive | fixedWindowed | Trial 09 | 332.202 ms
+cpuIntensive | fixedContinuous | Trial 10 | 283.386 ms
+cpuIntensive | fixedWindowed | Trial 10 | 331.726 ms
+cpuIntensive | adaptiveV2 | Trial 10 | 291.978 ms
+cpuIntensive | fixedWindowed | Trial 11 | 331.227 ms
+cpuIntensive | adaptiveV2 | Trial 11 | 289.841 ms
+cpuIntensive | fixedContinuous | Trial 11 | 280.740 ms
+cpuIntensive | adaptiveV2 | Trial 12 | 290.755 ms
+cpuIntensive | fixedContinuous | Trial 12 | 279.696 ms
+cpuIntensive | fixedWindowed | Trial 12 | 331.607 ms
+cpuIntensive | fixedContinuous | Trial 13 | 280.048 ms
+cpuIntensive | fixedWindowed | Trial 13 | 331.210 ms
+cpuIntensive | adaptiveV2 | Trial 13 | 290.659 ms
+cpuIntensive | fixedWindowed | Trial 14 | 334.806 ms
+cpuIntensive | adaptiveV2 | Trial 14 | 291.730 ms
+cpuIntensive | fixedContinuous | Trial 14 | 288.299 ms
+cpuIntensive | adaptiveV2 | Trial 15 | 291.538 ms
+cpuIntensive | fixedContinuous | Trial 15 | 282.654 ms
+cpuIntensive | fixedWindowed | Trial 15 | 334.310 ms
+cpuIntensive | fixedContinuous | Trial 16 | 282.257 ms
+cpuIntensive | fixedWindowed | Trial 16 | 333.976 ms
+cpuIntensive | adaptiveV2 | Trial 16 | 291.481 ms
+cpuIntensive | fixedWindowed | Trial 17 | 334.634 ms
+cpuIntensive | adaptiveV2 | Trial 17 | 292.455 ms
+cpuIntensive | fixedContinuous | Trial 17 | 284.245 ms
+cpuIntensive | adaptiveV2 | Trial 18 | 292.690 ms
+cpuIntensive | fixedContinuous | Trial 18 | 282.610 ms
+cpuIntensive | fixedWindowed | Trial 18 | 332.739 ms
+cpuIntensive | fixedContinuous | Trial 19 | 281.258 ms
+cpuIntensive | fixedWindowed | Trial 19 | 336.395 ms
+cpuIntensive | adaptiveV2 | Trial 19 | 293.436 ms
+cpuIntensive | fixedWindowed | Trial 20 | 335.863 ms
+cpuIntensive | adaptiveV2 | Trial 20 | 293.269 ms
+cpuIntensive | fixedContinuous | Trial 20 | 284.148 ms
+cpuIntensive | adaptiveV2 | Trial 21 | 290.228 ms
+cpuIntensive | fixedContinuous | Trial 21 | 280.807 ms
+cpuIntensive | fixedWindowed | Trial 21 | 332.626 ms
+cpuIntensive | fixedContinuous | Trial 22 | 279.712 ms
+cpuIntensive | fixedWindowed | Trial 22 | 333.038 ms
+cpuIntensive | adaptiveV2 | Trial 22 | 291.216 ms
+cpuIntensive | fixedWindowed | Trial 23 | 333.564 ms
+cpuIntensive | adaptiveV2 | Trial 23 | 291.845 ms
+cpuIntensive | fixedContinuous | Trial 23 | 282.687 ms
+cpuIntensive | adaptiveV2 | Trial 24 | 291.021 ms
+cpuIntensive | fixedContinuous | Trial 24 | 280.560 ms
+cpuIntensive | fixedWindowed | Trial 24 | 332.105 ms
+cpuIntensive | fixedContinuous | Trial 25 | 280.770 ms
+cpuIntensive | fixedWindowed | Trial 25 | 334.068 ms
+cpuIntensive | adaptiveV2 | Trial 25 | 292.388 ms
+cpuIntensive | fixedWindowed | Trial 26 | 336.834 ms
+cpuIntensive | adaptiveV2 | Trial 26 | 292.180 ms
+cpuIntensive | fixedContinuous | Trial 26 | 283.583 ms
+cpuIntensive | adaptiveV2 | Trial 27 | 292.031 ms
+cpuIntensive | fixedContinuous | Trial 27 | 282.280 ms
+cpuIntensive | fixedWindowed | Trial 27 | 332.918 ms
+cpuIntensive | fixedContinuous | Trial 28 | 281.519 ms
+cpuIntensive | fixedWindowed | Trial 28 | 332.972 ms
+cpuIntensive | adaptiveV2 | Trial 28 | 292.248 ms
+cpuIntensive | fixedWindowed | Trial 29 | 333.179 ms
+cpuIntensive | adaptiveV2 | Trial 29 | 291.251 ms
+cpuIntensive | fixedContinuous | Trial 29 | 280.148 ms
+cpuIntensive | adaptiveV2 | Trial 30 | 290.377 ms
+cpuIntensive | fixedContinuous | Trial 30 | 280.023 ms
+cpuIntensive | fixedWindowed | Trial 30 | 335.772 ms
+Completed: cpuIntensive
+
+Starting workload: variableLatency
+variableLatency | fixedContinuous | Trial 01 | 310.441 ms
+variableLatency | fixedWindowed | Trial 01 | 393.254 ms
+variableLatency | adaptiveV2 | Trial 01 | 351.486 ms
+variableLatency | fixedWindowed | Trial 02 | 392.543 ms
+variableLatency | adaptiveV2 | Trial 02 | 357.615 ms
+variableLatency | fixedContinuous | Trial 02 | 308.126 ms
+variableLatency | adaptiveV2 | Trial 03 | 369.453 ms
+variableLatency | fixedContinuous | Trial 03 | 309.620 ms
+variableLatency | fixedWindowed | Trial 03 | 392.751 ms
+variableLatency | fixedContinuous | Trial 04 | 309.628 ms
+variableLatency | fixedWindowed | Trial 04 | 391.225 ms
+variableLatency | adaptiveV2 | Trial 04 | 352.471 ms
+variableLatency | fixedWindowed | Trial 05 | 392.825 ms
+variableLatency | adaptiveV2 | Trial 05 | 355.644 ms
+variableLatency | fixedContinuous | Trial 05 | 308.166 ms
+variableLatency | adaptiveV2 | Trial 06 | 355.008 ms
+variableLatency | fixedContinuous | Trial 06 | 310.150 ms
+variableLatency | fixedWindowed | Trial 06 | 392.659 ms
+variableLatency | fixedContinuous | Trial 07 | 307.205 ms
+variableLatency | fixedWindowed | Trial 07 | 392.465 ms
+variableLatency | adaptiveV2 | Trial 07 | 353.651 ms
+variableLatency | fixedWindowed | Trial 08 | 395.665 ms
+variableLatency | adaptiveV2 | Trial 08 | 351.089 ms
+variableLatency | fixedContinuous | Trial 08 | 306.783 ms
+variableLatency | adaptiveV2 | Trial 09 | 352.625 ms
+variableLatency | fixedContinuous | Trial 09 | 310.239 ms
+variableLatency | fixedWindowed | Trial 09 | 395.555 ms
+variableLatency | fixedContinuous | Trial 10 | 307.526 ms
+variableLatency | fixedWindowed | Trial 10 | 395.613 ms
+variableLatency | adaptiveV2 | Trial 10 | 350.777 ms
+variableLatency | fixedWindowed | Trial 11 | 393.591 ms
+variableLatency | adaptiveV2 | Trial 11 | 359.307 ms
+variableLatency | fixedContinuous | Trial 11 | 308.081 ms
+variableLatency | adaptiveV2 | Trial 12 | 365.727 ms
+variableLatency | fixedContinuous | Trial 12 | 308.920 ms
+variableLatency | fixedWindowed | Trial 12 | 391.103 ms
+variableLatency | fixedContinuous | Trial 13 | 308.694 ms
+variableLatency | fixedWindowed | Trial 13 | 394.646 ms
+variableLatency | adaptiveV2 | Trial 13 | 359.962 ms
+variableLatency | fixedWindowed | Trial 14 | 393.707 ms
+variableLatency | adaptiveV2 | Trial 14 | 369.534 ms
+variableLatency | fixedContinuous | Trial 14 | 308.682 ms
+variableLatency | adaptiveV2 | Trial 15 | 353.061 ms
+variableLatency | fixedContinuous | Trial 15 | 306.519 ms
+variableLatency | fixedWindowed | Trial 15 | 394.450 ms
+variableLatency | fixedContinuous | Trial 16 | 308.948 ms
+variableLatency | fixedWindowed | Trial 16 | 392.373 ms
+variableLatency | adaptiveV2 | Trial 16 | 357.028 ms
+variableLatency | fixedWindowed | Trial 17 | 393.579 ms
+variableLatency | adaptiveV2 | Trial 17 | 352.643 ms
+variableLatency | fixedContinuous | Trial 17 | 309.489 ms
+variableLatency | adaptiveV2 | Trial 18 | 361.814 ms
+variableLatency | fixedContinuous | Trial 18 | 305.967 ms
+variableLatency | fixedWindowed | Trial 18 | 393.783 ms
+variableLatency | fixedContinuous | Trial 19 | 307.187 ms
+variableLatency | fixedWindowed | Trial 19 | 393.385 ms
+variableLatency | adaptiveV2 | Trial 19 | 351.774 ms
+variableLatency | fixedWindowed | Trial 20 | 393.053 ms
+variableLatency | adaptiveV2 | Trial 20 | 355.532 ms
+variableLatency | fixedContinuous | Trial 20 | 306.572 ms
+variableLatency | adaptiveV2 | Trial 21 | 350.862 ms
+variableLatency | fixedContinuous | Trial 21 | 305.727 ms
+variableLatency | fixedWindowed | Trial 21 | 393.108 ms
+variableLatency | fixedContinuous | Trial 22 | 306.104 ms
+variableLatency | fixedWindowed | Trial 22 | 393.167 ms
+variableLatency | adaptiveV2 | Trial 22 | 366.952 ms
+variableLatency | fixedWindowed | Trial 23 | 392.238 ms
+variableLatency | adaptiveV2 | Trial 23 | 350.356 ms
+variableLatency | fixedContinuous | Trial 23 | 308.509 ms
+variableLatency | adaptiveV2 | Trial 24 | 352.603 ms
+variableLatency | fixedContinuous | Trial 24 | 306.111 ms
+variableLatency | fixedWindowed | Trial 24 | 394.162 ms
+variableLatency | fixedContinuous | Trial 25 | 307.038 ms
+variableLatency | fixedWindowed | Trial 25 | 394.875 ms
+variableLatency | adaptiveV2 | Trial 25 | 352.724 ms
+variableLatency | fixedWindowed | Trial 26 | 393.780 ms
+variableLatency | adaptiveV2 | Trial 26 | 352.615 ms
+variableLatency | fixedContinuous | Trial 26 | 308.634 ms
+variableLatency | adaptiveV2 | Trial 27 | 351.152 ms
+variableLatency | fixedContinuous | Trial 27 | 308.687 ms
+variableLatency | fixedWindowed | Trial 27 | 392.584 ms
+variableLatency | fixedContinuous | Trial 28 | 308.541 ms
+variableLatency | fixedWindowed | Trial 28 | 390.997 ms
+variableLatency | adaptiveV2 | Trial 28 | 351.345 ms
+variableLatency | fixedWindowed | Trial 29 | 391.549 ms
+variableLatency | adaptiveV2 | Trial 29 | 349.969 ms
+variableLatency | fixedContinuous | Trial 29 | 308.655 ms
+variableLatency | adaptiveV2 | Trial 30 | 349.382 ms
+variableLatency | fixedContinuous | Trial 30 | 307.852 ms
+variableLatency | fixedWindowed | Trial 30 | 391.150 ms
+Completed: variableLatency
+
+Starting workload: mixed
+mixed | fixedContinuous | Trial 01 | 450.559 ms
+mixed | fixedWindowed | Trial 01 | 588.810 ms
+mixed | adaptiveV2 | Trial 01 | 543.381 ms
+mixed | fixedWindowed | Trial 02 | 596.694 ms
+mixed | adaptiveV2 | Trial 02 | 552.733 ms
+mixed | fixedContinuous | Trial 02 | 453.091 ms
+mixed | adaptiveV2 | Trial 03 | 532.039 ms
+mixed | fixedContinuous | Trial 03 | 451.838 ms
+mixed | fixedWindowed | Trial 03 | 589.519 ms
+mixed | fixedContinuous | Trial 04 | 450.934 ms
+mixed | fixedWindowed | Trial 04 | 590.113 ms
+mixed | adaptiveV2 | Trial 04 | 549.980 ms
+mixed | fixedWindowed | Trial 05 | 596.332 ms
+mixed | adaptiveV2 | Trial 05 | 550.938 ms
+mixed | fixedContinuous | Trial 05 | 449.259 ms
+mixed | adaptiveV2 | Trial 06 | 540.751 ms
+mixed | fixedContinuous | Trial 06 | 448.935 ms
+mixed | fixedWindowed | Trial 06 | 586.380 ms
+mixed | fixedContinuous | Trial 07 | 447.308 ms
+mixed | fixedWindowed | Trial 07 | 587.712 ms
+mixed | adaptiveV2 | Trial 07 | 549.904 ms
+mixed | fixedWindowed | Trial 08 | 595.097 ms
+mixed | adaptiveV2 | Trial 08 | 548.570 ms
+mixed | fixedContinuous | Trial 08 | 449.108 ms
+mixed | adaptiveV2 | Trial 09 | 524.769 ms
+mixed | fixedContinuous | Trial 09 | 450.369 ms
+mixed | fixedWindowed | Trial 09 | 589.998 ms
+mixed | fixedContinuous | Trial 10 | 447.436 ms
+mixed | fixedWindowed | Trial 10 | 587.170 ms
+mixed | adaptiveV2 | Trial 10 | 540.629 ms
+mixed | fixedWindowed | Trial 11 | 594.444 ms
+mixed | adaptiveV2 | Trial 11 | 549.337 ms
+mixed | fixedContinuous | Trial 11 | 449.868 ms
+mixed | adaptiveV2 | Trial 12 | 529.721 ms
+mixed | fixedContinuous | Trial 12 | 450.414 ms
+mixed | fixedWindowed | Trial 12 | 590.010 ms
+mixed | fixedContinuous | Trial 13 | 450.524 ms
+mixed | fixedWindowed | Trial 13 | 588.315 ms
+mixed | adaptiveV2 | Trial 13 | 548.818 ms
+mixed | fixedWindowed | Trial 14 | 595.055 ms
+mixed | adaptiveV2 | Trial 14 | 552.712 ms
+mixed | fixedContinuous | Trial 14 | 450.847 ms
+mixed | adaptiveV2 | Trial 15 | 543.820 ms
+mixed | fixedContinuous | Trial 15 | 452.528 ms
+mixed | fixedWindowed | Trial 15 | 584.543 ms
+mixed | fixedContinuous | Trial 16 | 447.637 ms
+mixed | fixedWindowed | Trial 16 | 586.762 ms
+mixed | adaptiveV2 | Trial 16 | 540.494 ms
+mixed | fixedWindowed | Trial 17 | 593.580 ms
+mixed | adaptiveV2 | Trial 17 | 549.109 ms
+mixed | fixedContinuous | Trial 17 | 448.144 ms
+mixed | adaptiveV2 | Trial 18 | 535.376 ms
+mixed | fixedContinuous | Trial 18 | 449.956 ms
+mixed | fixedWindowed | Trial 18 | 586.785 ms
+mixed | fixedContinuous | Trial 19 | 450.679 ms
+mixed | fixedWindowed | Trial 19 | 586.878 ms
+mixed | adaptiveV2 | Trial 19 | 550.031 ms
+mixed | fixedWindowed | Trial 20 | 592.615 ms
+mixed | adaptiveV2 | Trial 20 | 550.501 ms
+mixed | fixedContinuous | Trial 20 | 447.888 ms
+mixed | adaptiveV2 | Trial 21 | 535.686 ms
+mixed | fixedContinuous | Trial 21 | 449.700 ms
+mixed | fixedWindowed | Trial 21 | 589.172 ms
+mixed | fixedContinuous | Trial 22 | 455.690 ms
+mixed | fixedWindowed | Trial 22 | 585.033 ms
+mixed | adaptiveV2 | Trial 22 | 552.061 ms
+mixed | fixedWindowed | Trial 23 | 594.026 ms
+mixed | adaptiveV2 | Trial 23 | 548.660 ms
+mixed | fixedContinuous | Trial 23 | 454.335 ms
+mixed | adaptiveV2 | Trial 24 | 544.114 ms
+mixed | fixedContinuous | Trial 24 | 447.569 ms
+mixed | fixedWindowed | Trial 24 | 587.644 ms
+mixed | fixedContinuous | Trial 25 | 448.155 ms
+mixed | fixedWindowed | Trial 25 | 587.272 ms
+mixed | adaptiveV2 | Trial 25 | 549.979 ms
+mixed | fixedWindowed | Trial 26 | 593.552 ms
+mixed | adaptiveV2 | Trial 26 | 541.883 ms
+mixed | fixedContinuous | Trial 26 | 448.451 ms
+mixed | adaptiveV2 | Trial 27 | 530.804 ms
+mixed | fixedContinuous | Trial 27 | 450.162 ms
+mixed | fixedWindowed | Trial 27 | 583.297 ms
+mixed | fixedContinuous | Trial 28 | 450.860 ms
+mixed | fixedWindowed | Trial 28 | 583.968 ms
+mixed | adaptiveV2 | Trial 28 | 545.779 ms
+mixed | fixedWindowed | Trial 29 | 591.367 ms
+mixed | adaptiveV2 | Trial 29 | 535.478 ms
+mixed | fixedContinuous | Trial 29 | 456.733 ms
+mixed | adaptiveV2 | Trial 30 | 548.272 ms
+mixed | fixedContinuous | Trial 30 | 457.293 ms
+mixed | fixedWindowed | Trial 30 | 590.401 ms
+Completed: mixed
+
+CSV exported: /Users/madhuri/Desktop/Research Project/AdaptivePerfKit/research/phase2/evidence/window-overhead/window_overhead_270_trials.csv
+Total measured executions: 270
+
+========== BENCHMARK SUMMARY ==========
+cpuIntensive | fixedContinuous | Mean 281.811 ms | Median 281.550 ms | P95 284.245 ms
+cpuIntensive | fixedWindowed | Mean 333.170 ms | Median 332.945 ms | P95 336.395 ms
+cpuIntensive | adaptiveV2 | Mean 291.261 ms | Median 291.366 ms | P95 293.436 ms
+variableLatency | fixedContinuous | Mean 308.093 ms | Median 308.337 ms | P95 310.239 ms
+variableLatency | fixedWindowed | Mean 393.194 ms | Median 393.138 ms | P95 395.613 ms
+variableLatency | adaptiveV2 | Mean 355.472 ms | Median 352.684 ms | P95 369.453 ms
+mixed | fixedContinuous | Mean 450.542 ms | Median 450.266 ms | P95 456.733 ms
+mixed | fixedWindowed | Mean 589.751 ms | Median 589.345 ms | P95 596.332 ms
+mixed | adaptiveV2 | Mean 543.878 ms | Median 547.026 ms | P95 552.712 ms
+=======================================
+PASS: Window overhead benchmark completed
+◇ Test run started.
+↳ Testing Library Version: 1501
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

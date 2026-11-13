@@ -1,0 +1,42 @@
+Building for debugging...
+[0/2] Write swift-version-BF9FFD6CEA9A4E.txt
+Build complete! (0.07s)
+Test Suite 'Selected tests' started at 2026-11-12 22:09:53.412.
+Test Suite 'AdaptivePerfKitPackageTests.xctest' started at 2026-11-12 22:09:53.413.
+Test Suite 'PerformanceFeedbackTests' started at 2026-11-12 22:09:53.413.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testCustomWindowIDAndTimestamp]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testCustomWindowIDAndTimestamp]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testFeedbackEquality]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testFeedbackEquality]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testInvalidConcurrencyLimit]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testInvalidConcurrencyLimit]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testNegativeElapsedTime]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testNegativeElapsedTime]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testNegativeMeanLatency]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testNegativeMeanLatency]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testNegativeTaskCount]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testNegativeTaskCount]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testNonFiniteElapsedTime]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testNonFiniteElapsedTime]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testNonFiniteMeanLatency]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testNonFiniteMeanLatency]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testThroughputCalculation]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testThroughputCalculation]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testThroughputWithFractionalSeconds]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testThroughputWithFractionalSeconds]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testValidFeedback]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testValidFeedback]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testZeroCompletedTasks]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testZeroCompletedTasks]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testZeroElapsedTime]' started.
+Test Case '-[AdaptivePerfKitTests.PerformanceFeedbackTests testZeroElapsedTime]' passed (0.000 seconds).
+Test Suite 'PerformanceFeedbackTests' passed at 2026-11-12 22:09:53.414.
+	 Executed 13 tests, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'AdaptivePerfKitPackageTests.xctest' passed at 2026-11-12 22:09:53.414.
+	 Executed 13 tests, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'Selected tests' passed at 2026-11-12 22:09:53.414.
+	 Executed 13 tests, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+◇ Test run started.
+↳ Testing Library Version: 1501
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

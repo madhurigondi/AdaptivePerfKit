@@ -1,0 +1,285 @@
+[
+
+{
+
+"batchID" : "FDC15854-C83D-4583-BD2A-B2BE73102936",
+
+"durationMilliseconds" : 676.779583,
+
+"environment" : {
+
+"deviceModel" : "iPhone",
+
+"isSimulator" : true,
+
+"operatingSystem" : "iOS 26.3.1",
+
+"sdkVersion" : "0.1.0"
+
+},
+
+"id" : "FD0DE4BB-F8C6-4BB3-93C9-ECB2516CD0EE",
+
+"runNumber" : 1,
+
+"timestamp" : "2026-11-13T03:29:27Z",
+
+"workloadName" : "CPU Benchmark"
+
+},
+
+{
+
+"batchID" : "FDC15854-C83D-4583-BD2A-B2BE73102936",
+
+"durationMilliseconds" : 629.09525,
+
+"environment" : {
+
+"deviceModel" : "iPhone",
+
+"isSimulator" : true,
+
+"operatingSystem" : "iOS 26.3.1",
+
+"sdkVersion" : "0.1.0"
+
+},
+
+"id" : "5A517068-6425-4248-BFE9-F032ECD78DF7",
+
+"runNumber" : 2,
+
+"timestamp" : "2026-11-13T03:29:28Z",
+
+"workloadName" : "CPU Benchmark"
+
+},
+
+{
+
+"batchID" : "FDC15854-C83D-4583-BD2A-B2BE73102936",
+
+"durationMilliseconds" : 611.695292,
+
+"environment" : {
+
+"deviceModel" : "iPhone",
+
+"isSimulator" : true,
+
+"operatingSystem" : "iOS 26.3.1",
+
+"sdkVersion" : "0.1.0"
+
+},
+
+"id" : "60ED5048-4299-45A3-BECC-0434E7A129AF",
+
+"runNumber" : 3,
+
+"timestamp" : "2026-11-13T03:29:29Z",
+
+"workloadName" : "CPU Benchmark"
+
+
+},
+
+{
+
+"batchID" : "FDC15854-C83D-4583-BD2A-B2BE73102936",
+
+"durationMilliseconds" : 610.724833,
+
+"environment" : {
+
+"deviceModel" : "iPhone",
+
+"isSimulator" : true,
+
+"operatingSystem" : "iOS 26.3.1",
+
+"sdkVersion" : "0.1.0"
+
+},
+
+"id" : "42154871-C9CD-4F97-B02E-6DED06788AEB",
+
+"runNumber" : 4,
+
+"timestamp" : "2026-11-13T03:29:29Z",
+
+"workloadName" : "CPU Benchmark"
+
+},
+
+{
+
+"batchID" : "FDC15854-C83D-4583-BD2A-B2BE73102936",
+
+"durationMilliseconds" : 614.202083,
+
+"environment" : {
+
+"deviceModel" : "iPhone",
+
+"isSimulator" : true,
+
+"operatingSystem" : "iOS 26.3.1",
+
+"sdkVersion" : "0.1.0"
+
+},
+
+"id" : "B9EAB65F-FA69-4373-8C39-7FF04C870214",
+
+"runNumber" : 5,
+
+"timestamp" : "2026-11-13T03:29:30Z",
+
+"workloadName" : "CPU Benchmark"
+
+},
+
+{
+
+"batchID" : "47F6E93D-4F15-4E9D-B195-6E7701A480A5",
+
+"durationMilliseconds" : 636.71775,
+
+"environment" : {
+
+"deviceModel" : "iPhone",
+
+"isSimulator" : true,
+
+"operatingSystem" : "iOS 26.3.1",
+
+"sdkVersion" : "0.1.0"
+
+},
+
+"id" : "5F6FA3AB-593F-4C90-AB43-E701E01406A8",
+
+"runNumber" : 1,
+
+"timestamp" : "2026-11-13T03:29:35Z",
+
+"workloadName" : "CPU Benchmark"
+
+},
+
+{
+
+"batchID" : "47F6E93D-4F15-4E9D-B195-6E7701A480A5",
+
+"durationMilliseconds" : 607.990084,
+
+"environment" : {
+
+"deviceModel" : "iPhone",
+
+"isSimulator" : true,
+
+"operatingSystem" : "iOS 26.3.1",
+
+"sdkVersion" : "0.1.0"
+
+},
+
+"id" : "3F3AAFBB-7868-4B3A-AC2A-E34836D055E1",
+
+"runNumber" : 2,
+
+"timestamp" : "2026-11-13T03:29:36Z",
+
+"workloadName" : "CPU Benchmark"
+
+},
+
+{
+
+"batchID" : "47F6E93D-4F15-4E9D-B195-6E7701A480A5",
+
+"durationMilliseconds" : 609.716042,
+
+"environment" : {
+
+"deviceModel" : "iPhone",
+
+"isSimulator" : true,
+
+"operatingSystem" : "iOS 26.3.1",
+
+"sdkVersion" : "0.1.0"
+
+},
+
+"id" : "1C55FE44-D0C3-481F-9BBB-8E18E43FBED4",
+
+"runNumber" : 3,
+
+"timestamp" : "2026-11-13T03:29:37Z",
+
+"workloadName" : "CPU Benchmark"
+
+},
+
+{
+
+"batchID" : "47F6E93D-4F15-4E9D-B195-6E7701A480A5",
+
+"durationMilliseconds" : 612.689292,
+
+"environment" : {
+
+"deviceModel" : "iPhone",
+
+"isSimulator" : true,
+
+"operatingSystem" : "iOS 26.3.1",
+
+"sdkVersion" : "0.1.0"
+
+},
+
+"id" : "FA029E4E-E5A7-44BC-9F4B-9FDD9F4A58F4",
+
+"runNumber" : 4,
+
+"timestamp" : "2026-11-13T03:29:37Z",
+
+"workloadName" : "CPU Benchmark"
+
+
+},
+
+{
+
+"batchID" : "47F6E93D-4F15-4E9D-B195-6E7701A480A5",
+
+"durationMilliseconds" : 620.90825,
+
+"environment" : {
+
+"deviceModel" : "iPhone",
+
+"isSimulator" : true,
+
+"operatingSystem" : "iOS 26.3.1",
+
+"sdkVersion" : "0.1.0"
+
+},
+
+"id" : "18D250C0-9BCC-49F5-810B-1C1C12BFE97F",
+
+"runNumber" : 5,
+
+"timestamp" : "2026-11-13T03:29:38Z",
+
+"workloadName" : "CPU Benchmark"
+
+}
+
+]

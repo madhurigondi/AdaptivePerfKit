@@ -1,0 +1,32 @@
+Building for debugging...
+[0/2] Write swift-version-BF9FFD6CEA9A4E.txt
+Build complete! (0.08s)
+Test Suite 'Selected tests' started at 2026-11-13 12:42:25.166.
+Test Suite 'AdaptivePerfKitPackageTests.xctest' started at 2026-11-13 12:42:25.167.
+Test Suite 'ContinuousAdaptiveExecutorTests' started at 2026-11-13 12:42:25.167.
+Test Case '-[AdaptivePerfKitTests.ContinuousAdaptiveExecutorTests testCancellation]' started.
+Test Case '-[AdaptivePerfKitTests.ContinuousAdaptiveExecutorTests testCancellation]' passed (0.001 seconds).
+Test Case '-[AdaptivePerfKitTests.ContinuousAdaptiveExecutorTests testEmptyInputs]' started.
+Test Case '-[AdaptivePerfKitTests.ContinuousAdaptiveExecutorTests testEmptyInputs]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.ContinuousAdaptiveExecutorTests testFeedbackWindowCounts]' started.
+Test Case '-[AdaptivePerfKitTests.ContinuousAdaptiveExecutorTests testFeedbackWindowCounts]' passed (0.052 seconds).
+Test Case '-[AdaptivePerfKitTests.ContinuousAdaptiveExecutorTests testFinalPartialWindow]' started.
+Test Case '-[AdaptivePerfKitTests.ContinuousAdaptiveExecutorTests testFinalPartialWindow]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.ContinuousAdaptiveExecutorTests testFreshControllerForEachExecution]' started.
+Test Case '-[AdaptivePerfKitTests.ContinuousAdaptiveExecutorTests testFreshControllerForEachExecution]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.ContinuousAdaptiveExecutorTests testPreservesOriginalInputOrder]' started.
+Test Case '-[AdaptivePerfKitTests.ContinuousAdaptiveExecutorTests testPreservesOriginalInputOrder]' passed (0.062 seconds).
+Test Case '-[AdaptivePerfKitTests.ContinuousAdaptiveExecutorTests testPropagatesOperationFailure]' started.
+Test Case '-[AdaptivePerfKitTests.ContinuousAdaptiveExecutorTests testPropagatesOperationFailure]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.ContinuousAdaptiveExecutorTests testRespectsMaximumConcurrency]' started.
+Test Case '-[AdaptivePerfKitTests.ContinuousAdaptiveExecutorTests testRespectsMaximumConcurrency]' passed (0.053 seconds).
+Test Suite 'ContinuousAdaptiveExecutorTests' passed at 2026-11-13 12:42:25.335.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.168 (0.168) seconds
+Test Suite 'AdaptivePerfKitPackageTests.xctest' passed at 2026-11-13 12:42:25.335.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.168 (0.168) seconds
+Test Suite 'Selected tests' passed at 2026-11-13 12:42:25.335.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.168 (0.169) seconds
+◇ Test run started.
+↳ Testing Library Version: 1501
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

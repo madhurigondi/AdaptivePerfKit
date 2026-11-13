@@ -1,0 +1,40 @@
+Building for debugging...
+[0/2] Write swift-version-BF9FFD6CEA9A4E.txt
+Build complete! (0.07s)
+Test Suite 'Selected tests' started at 2026-11-12 22:11:54.759.
+Test Suite 'AdaptivePerfKitPackageTests.xctest' started at 2026-11-12 22:11:54.759.
+Test Suite 'AdaptiveConcurrencyControllerTests' started at 2026-11-12 22:11:54.759.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testAdjustmentHistory]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testAdjustmentHistory]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testInitialConcurrency]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testInitialConcurrency]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testInitialExploration]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testInitialExploration]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testInsufficientImprovementMaintainsConcurrency]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testInsufficientImprovementMaintainsConcurrency]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testLatencyAtThresholdDoesNotTriggerReduction]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testLatencyAtThresholdDoesNotTriggerReduction]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testLatencyExceededDecreasesConcurrency]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testLatencyExceededDecreasesConcurrency]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testMaximumConcurrencyIsRespected]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testMaximumConcurrencyIsRespected]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testMinimumConcurrencyIsRespected]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testMinimumConcurrencyIsRespected]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testMismatchedConcurrencyDoesNotChangeState]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testMismatchedConcurrencyDoesNotChangeState]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testResetRestoresInitialState]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testResetRestoresInitialState]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testThroughputDegradationReversesDirection]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testThroughputDegradationReversesDirection]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testThroughputImprovementIncreasesConcurrency]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyControllerTests testThroughputImprovementIncreasesConcurrency]' passed (0.000 seconds).
+Test Suite 'AdaptiveConcurrencyControllerTests' passed at 2026-11-12 22:11:54.761.
+	 Executed 12 tests, with 0 failures (0 unexpected) in 0.002 (0.002) seconds
+Test Suite 'AdaptivePerfKitPackageTests.xctest' passed at 2026-11-12 22:11:54.761.
+	 Executed 12 tests, with 0 failures (0 unexpected) in 0.002 (0.002) seconds
+Test Suite 'Selected tests' passed at 2026-11-12 22:11:54.761.
+	 Executed 12 tests, with 0 failures (0 unexpected) in 0.002 (0.003) seconds
+◇ Test run started.
+↳ Testing Library Version: 1501
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

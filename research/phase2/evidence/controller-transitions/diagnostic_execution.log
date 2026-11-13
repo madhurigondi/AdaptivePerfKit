@@ -1,0 +1,30 @@
+Building for debugging...
+[0/2] Write swift-version-BF9FFD6CEA9A4E.txt
+Build complete! (0.07s)
+Test Suite 'Selected tests' started at 2026-11-13 12:19:49.236.
+Test Suite 'AdaptivePerfKitPackageTests.xctest' started at 2026-11-13 12:19:49.237.
+Test Suite 'ControllerTransitionDiagnosticTests' started at 2026-11-13 12:19:49.237.
+Test Case '-[AdaptivePerfKitTests.ControllerTransitionDiagnosticTests testControllerTransitions]' started.
+Test Case '-[AdaptivePerfKitTests.ControllerTransitionDiagnosticTests testControllerTransitions]' passed (79.589 seconds).
+Test Suite 'ControllerTransitionDiagnosticTests' passed at 2026-11-13 12:21:08.825.
+	 Executed 1 test, with 0 failures (0 unexpected) in 79.589 (79.589) seconds
+Test Suite 'AdaptivePerfKitPackageTests.xctest' passed at 2026-11-13 12:21:08.825.
+	 Executed 1 test, with 0 failures (0 unexpected) in 79.589 (79.589) seconds
+Test Suite 'Selected tests' passed at 2026-11-13 12:21:08.825.
+	 Executed 1 test, with 0 failures (0 unexpected) in 79.589 (79.589) seconds
+Starting: cpuIntensive
+Completed cpuIntensive / v1
+Completed cpuIntensive / v2
+Starting: variableLatency
+Completed variableLatency / v1
+Completed variableLatency / v2
+Starting: mixed
+Completed mixed / v1
+Completed mixed / v2
+CSV exported: /Users/madhuri/Desktop/Research Project/AdaptivePerfKit/research/phase2/evidence/controller-transitions/controller_transitions_1800_windows.csv
+Total windows: 1800
+PASS: Controller transitions exported
+◇ Test run started.
+↳ Testing Library Version: 1501
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

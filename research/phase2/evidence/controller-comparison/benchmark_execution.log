@@ -1,0 +1,123 @@
+[0/1] Planning build
+Building for debugging...
+[0/2] Write swift-version-BF9FFD6CEA9A4E.txt
+[2/3] Emitting module AdaptivePerfKit
+[3/4] Emitting module AdaptivePerfKitTests
+Build complete! (0.78s)
+Test Suite 'Selected tests' started at 2026-11-13 11:53:53.738.
+Test Suite 'AdaptivePerfKitPackageTests.xctest' started at 2026-11-13 11:53:53.739.
+Test Suite 'ControllerComparisonRunnerTests' started at 2026-11-13 11:53:53.739.
+Test Case '-[AdaptivePerfKitTests.ControllerComparisonRunnerTests testThirtyTrialControllerComparison]' started.
+Test Case '-[AdaptivePerfKitTests.ControllerComparisonRunnerTests testThirtyTrialControllerComparison]' passed (15.785 seconds).
+Test Suite 'ControllerComparisonRunnerTests' passed at 2026-11-13 11:54:09.524.
+	 Executed 1 test, with 0 failures (0 unexpected) in 15.785 (15.785) seconds
+Test Suite 'AdaptivePerfKitPackageTests.xctest' passed at 2026-11-13 11:54:09.524.
+	 Executed 1 test, with 0 failures (0 unexpected) in 15.785 (15.785) seconds
+Test Suite 'Selected tests' passed at 2026-11-13 11:54:09.524.
+	 Executed 1 test, with 0 failures (0 unexpected) in 15.785 (15.786) seconds
+Starting controller comparison
+Tasks per execution: 100
+Warm-up rounds: 3
+Measured rounds: 30
+Warm-up round 1 complete
+Warm-up round 2 complete
+Warm-up round 3 complete
+Trial 01 | fixed4 | 158.213 ms
+Trial 01 | adaptiveV1 | 160.234 ms
+Trial 01 | adaptiveV2 | 160.986 ms
+Trial 02 | adaptiveV1 | 166.069 ms
+Trial 02 | adaptiveV2 | 167.402 ms
+Trial 02 | fixed4 | 154.232 ms
+Trial 03 | adaptiveV2 | 160.656 ms
+Trial 03 | fixed4 | 155.004 ms
+Trial 03 | adaptiveV1 | 162.078 ms
+Trial 04 | fixed4 | 153.867 ms
+Trial 04 | adaptiveV1 | 159.081 ms
+Trial 04 | adaptiveV2 | 159.520 ms
+Trial 05 | adaptiveV1 | 159.653 ms
+Trial 05 | adaptiveV2 | 161.235 ms
+Trial 05 | fixed4 | 155.490 ms
+Trial 06 | adaptiveV2 | 163.531 ms
+Trial 06 | fixed4 | 153.442 ms
+Trial 06 | adaptiveV1 | 161.221 ms
+Trial 07 | fixed4 | 155.071 ms
+Trial 07 | adaptiveV1 | 163.451 ms
+Trial 07 | adaptiveV2 | 162.130 ms
+Trial 08 | adaptiveV1 | 164.039 ms
+Trial 08 | adaptiveV2 | 162.859 ms
+Trial 08 | fixed4 | 157.020 ms
+Trial 09 | adaptiveV2 | 163.350 ms
+Trial 09 | fixed4 | 157.151 ms
+Trial 09 | adaptiveV1 | 161.053 ms
+Trial 10 | fixed4 | 151.652 ms
+Trial 10 | adaptiveV1 | 162.307 ms
+Trial 10 | adaptiveV2 | 162.552 ms
+Trial 11 | adaptiveV1 | 165.416 ms
+Trial 11 | adaptiveV2 | 158.961 ms
+Trial 11 | fixed4 | 156.464 ms
+Trial 12 | adaptiveV2 | 158.954 ms
+Trial 12 | fixed4 | 149.782 ms
+Trial 12 | adaptiveV1 | 164.507 ms
+Trial 13 | fixed4 | 154.241 ms
+Trial 13 | adaptiveV1 | 159.446 ms
+Trial 13 | adaptiveV2 | 161.432 ms
+Trial 14 | adaptiveV1 | 162.821 ms
+Trial 14 | adaptiveV2 | 161.902 ms
+Trial 14 | fixed4 | 154.271 ms
+Trial 15 | adaptiveV2 | 164.826 ms
+Trial 15 | fixed4 | 154.840 ms
+Trial 15 | adaptiveV1 | 163.972 ms
+Trial 16 | fixed4 | 158.727 ms
+Trial 16 | adaptiveV1 | 162.786 ms
+Trial 16 | adaptiveV2 | 161.112 ms
+Trial 17 | adaptiveV1 | 161.126 ms
+Trial 17 | adaptiveV2 | 164.032 ms
+Trial 17 | fixed4 | 153.664 ms
+Trial 18 | adaptiveV2 | 161.201 ms
+Trial 18 | fixed4 | 153.961 ms
+Trial 18 | adaptiveV1 | 160.871 ms
+Trial 19 | fixed4 | 151.132 ms
+Trial 19 | adaptiveV1 | 160.959 ms
+Trial 19 | adaptiveV2 | 160.197 ms
+Trial 20 | adaptiveV1 | 161.570 ms
+Trial 20 | adaptiveV2 | 163.931 ms
+Trial 20 | fixed4 | 153.595 ms
+Trial 21 | adaptiveV2 | 157.118 ms
+Trial 21 | fixed4 | 155.192 ms
+Trial 21 | adaptiveV1 | 162.475 ms
+Trial 22 | fixed4 | 153.993 ms
+Trial 22 | adaptiveV1 | 161.253 ms
+Trial 22 | adaptiveV2 | 162.211 ms
+Trial 23 | adaptiveV1 | 161.936 ms
+Trial 23 | adaptiveV2 | 157.779 ms
+Trial 23 | fixed4 | 154.753 ms
+Trial 24 | adaptiveV2 | 161.092 ms
+Trial 24 | fixed4 | 153.494 ms
+Trial 24 | adaptiveV1 | 159.973 ms
+Trial 25 | fixed4 | 153.660 ms
+Trial 25 | adaptiveV1 | 164.470 ms
+Trial 25 | adaptiveV2 | 161.169 ms
+Trial 26 | adaptiveV1 | 160.694 ms
+Trial 26 | adaptiveV2 | 160.367 ms
+Trial 26 | fixed4 | 153.627 ms
+Trial 27 | adaptiveV2 | 160.516 ms
+Trial 27 | fixed4 | 155.015 ms
+Trial 27 | adaptiveV1 | 165.839 ms
+Trial 28 | fixed4 | 153.241 ms
+Trial 28 | adaptiveV1 | 158.095 ms
+Trial 28 | adaptiveV2 | 158.240 ms
+Trial 29 | adaptiveV1 | 159.201 ms
+Trial 29 | adaptiveV2 | 160.432 ms
+Trial 29 | fixed4 | 153.247 ms
+Trial 30 | adaptiveV2 | 158.162 ms
+Trial 30 | fixed4 | 153.425 ms
+Trial 30 | adaptiveV1 | 158.945 ms
+CSV exported: /Users/madhuri/Desktop/Research Project/AdaptivePerfKit/research/phase2/evidence/controller-comparison/controller_comparison_30_trials.csv
+fixed4 | Mean 154.382 ms | Median 154.112 ms | P95 158.213 ms
+adaptiveV1 | Mean 161.851 ms | Median 161.411 ms | P95 165.839 ms
+adaptiveV2 | Mean 161.262 ms | Median 161.140 ms | P95 164.826 ms
+PASS: Controller comparison completed
+◇ Test run started.
+↳ Testing Library Version: 1501
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

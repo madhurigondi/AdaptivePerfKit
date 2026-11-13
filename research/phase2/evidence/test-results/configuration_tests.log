@@ -1,0 +1,42 @@
+Building for debugging...
+[0/2] Write swift-version-BF9FFD6CEA9A4E.txt
+Build complete! (0.07s)
+Test Suite 'Selected tests' started at 2026-11-12 22:02:42.421.
+Test Suite 'AdaptivePerfKitPackageTests.xctest' started at 2026-11-12 22:02:42.421.
+Test Suite 'AdaptiveConcurrencyConfigurationTests' started at 2026-11-12 22:02:42.421.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testDefaultConfiguration]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testDefaultConfiguration]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testEqualConcurrencyBoundaries]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testEqualConcurrencyBoundaries]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testImprovementThresholdAboveLimit]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testImprovementThresholdAboveLimit]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInitialConcurrencyAboveMaximum]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInitialConcurrencyAboveMaximum]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInitialConcurrencyBelowMinimum]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInitialConcurrencyBelowMinimum]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInvalidImprovementThreshold]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInvalidImprovementThreshold]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInvalidMaximumConcurrency]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInvalidMaximumConcurrency]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInvalidMaximumLatency]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInvalidMaximumLatency]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInvalidMeasurementWindow]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInvalidMeasurementWindow]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInvalidMinimumConcurrency]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testInvalidMinimumConcurrency]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testNonFiniteImprovementThreshold]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testNonFiniteImprovementThreshold]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testNonFiniteMaximumLatency]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testNonFiniteMaximumLatency]' passed (0.000 seconds).
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testValidCustomConfiguration]' started.
+Test Case '-[AdaptivePerfKitTests.AdaptiveConcurrencyConfigurationTests testValidCustomConfiguration]' passed (0.000 seconds).
+Test Suite 'AdaptiveConcurrencyConfigurationTests' passed at 2026-11-12 22:02:42.423.
+	 Executed 13 tests, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'AdaptivePerfKitPackageTests.xctest' passed at 2026-11-12 22:02:42.423.
+	 Executed 13 tests, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'Selected tests' passed at 2026-11-12 22:02:42.423.
+	 Executed 13 tests, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+◇ Test run started.
+↳ Testing Library Version: 1501
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.
